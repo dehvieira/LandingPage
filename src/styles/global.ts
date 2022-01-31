@@ -9,9 +9,13 @@ const GlobalStyle = createGlobalStyle`
             box-sizing: border-box;
       }      
 
-      html, body {
+      html, body, #root {
             height:100vh;
 	      line-height: 1.5;
+      }
+
+      body{
+            background: #F8FDFF;
       }
 
       ol, ul {
@@ -42,8 +46,9 @@ const GlobalStyle = createGlobalStyle`
       a{
             text-decoration: none;
             outline: none;
-
       }
+
+     
       
 `
 
