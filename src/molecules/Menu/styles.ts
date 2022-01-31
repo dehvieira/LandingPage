@@ -2,9 +2,7 @@ import styled  from "styled-components";
 
 export const MenuList = styled.ul `
 
-margin-left: auto;
-
-
+      margin-left: auto;
 `
 
 export const ItemList = styled.li `
