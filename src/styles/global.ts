@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
 
       body{
             background: #F8FDFF;
+            font-family: 'Poppins', sans-serif;
       }
 
       ol, ul {
@@ -41,6 +42,7 @@ const GlobalStyle = createGlobalStyle`
             background-color:none;
             border: none;
             outline: none;
+            font-family: 'Poppins', sans-serif;
       }
 
       a{
