@@ -3,6 +3,11 @@ import ButtonContact from "../atoms/ButtonContact";
 import Frontend from "../templates/Frontend";
 import * as S from './styles'
 
+import HeroHeaderImage from '../assets/hero-header-image-2.png';
+import CardActivity from "../molecules/CardActivity";
+
+
+
 function Main() {  
 
   return (
@@ -14,12 +19,20 @@ function Main() {
           <p>We are a full service digital agency that builds immesive user experience.</p>
         
           <ButtonContact />
+        </div>    
+
+        <div>
+          
+      
+        <S.ColumnImage>
+          <CardActivity />
+          
+            <img src={HeroHeaderImage} alt="A woman doing research" />
+         
+        </S.ColumnImage>  
+      
+                
         </div>
-
-        
-
-
-        <div className="">col2</div>
 
      </S.Container>
 

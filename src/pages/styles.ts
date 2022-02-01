@@ -24,5 +24,19 @@ export const Container = styled.div`
             text-align:left;
             width: 25.25em;
       }
+`
+
+export const ColumnImage = styled.div `
+    
+           text-align: right;
+           position: relative;
+           
+      
+      `
+
+export const CardImage = styled.div `
+           display: block;
+         
+ 
 
 `
