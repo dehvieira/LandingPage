@@ -1,5 +1,8 @@
 import {createGlobalStyle} from 'styled-components'
 
+import bkg1 from '../assets/background1.svg';
+import bkg2 from '../assets/background2.png';
+
 
 const GlobalStyle = createGlobalStyle`
 
@@ -14,9 +17,12 @@ const GlobalStyle = createGlobalStyle`
 	      line-height: 1.5;
       }
 
-      body{
-            background: #F8FDFF;
+      body{           
             font-family: 'Poppins', sans-serif;
+            background: url(${bkg2}) no-repeat 1010px, url(${bkg1}) no-repeat 930px;
+            background-size:cover;
+            background-color: #F8FDFF;
+
       }
 
       ol, ul {
