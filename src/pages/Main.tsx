@@ -5,6 +5,7 @@ import * as S from './styles'
 
 import HeroHeaderImage from '../assets/hero-header-image-2.png';
 import CardActivity from "../molecules/CardActivity";
+import CardChart from "../molecules/CardChart";
 
 
 
@@ -21,17 +22,16 @@ function Main() {
           <ButtonContact />
         </div>    
 
-        <div>
-          
+        <div>         
       
         <S.ColumnImage>
           <CardActivity />
-          
+          <CardChart /> 
             <img src={HeroHeaderImage} alt="A woman doing research" />
          
+         
         </S.ColumnImage>  
-      
-                
+                      
         </div>
 
      </S.Container>
