@@ -1,8 +1,3 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Landingpage" />
-
-</div>
-
 <h1 align="center">Landingpage</h1>
 
 <p align="center">
@@ -61,7 +56,7 @@ $ cd landingpage
 $ yarn
 
 # Run the project
-$ yarn start
+$ yarn dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
